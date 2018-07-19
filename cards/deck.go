@@ -8,7 +8,6 @@ import (
 
 // create a new type of deck
 // which is a slice of strings
-// some comment
 type deck []string
 
 func newDeck() deck {
