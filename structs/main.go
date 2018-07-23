@@ -23,9 +23,7 @@ func main() {
 		},
 	}
 
-	alex.print()
-	alexPointer := &alex
-	alexPointer.updateName("alexander")
+	alex.updateName("alexander")
 	alex.print()
 }
 
